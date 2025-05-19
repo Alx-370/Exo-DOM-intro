@@ -6,11 +6,7 @@ const bearsPictures = [
     "https://placebear.com/500/305",
 ];
 
-const allHeadings = document.querySelectorAll('img');
+const allSource = document.querySelectorAll('img');
 
-const newarray = Array.from(allHeadings);
-
-
-newarray.forEach((element, i) => { element.src = bearsPictures[i]
-
-});
+const newarray = Array.from(allSource);
+newarray.forEach((element, i) => { element.src = bearsPictures[i]});
