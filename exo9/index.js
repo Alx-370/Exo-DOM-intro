@@ -8,13 +8,13 @@ image.addEventListener("click", () => {
 const hoverTitle = document.querySelector(".title");
 hoverTitle.addEventListener("mouseover", () => {
 
-  hoverTitle.setAttribute("style", " color: lightblue;");
+  hoverTitle.setAttribute("style", "color: lightblue;");
 })
 
 const leaveTitle = document.querySelector(".title");
 hoverTitle.addEventListener("mouseleave", () => {
 
-  hoverTitle.setAttribute("style", " color: black;");
+  hoverTitle.setAttribute("style", "color: black;");
 })
 
 
